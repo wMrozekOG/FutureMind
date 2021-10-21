@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/item_list_fragment">
+
+    <fragment
+        android:id="@+id/item_list_fragment"
+        android:name="com.example.futuremind.view.list.ListFragment"
+        android:label="@string/navigation_list">
+        <action
+            android:id="@+id/show_item_detail"
+            app:destination="@id/item_detail_fragment">
+
+            <argument
+                android:name="url"
+                android:defaultValue=""
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_detail_fragment"
+        android:name="com.example.futuremind.view.details.DetailsFragment"
+        android:label="@string/navigation_details">
+        <argument
+            android:name="url"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+</navigation>

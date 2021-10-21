@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FutureMind</string>
+
+    <string name="navigation_list">List</string>
+    <string name="navigation_details">Details</string>
+
+    <string name="try_again">Try again</string>
+    <string name="offline_error_title">Connection error.</string>
+    <string name="offline_error_message">Please check your internet connection.</string>
+    <string name="load_data_error_title">Couldn’t load data.</string>
+    <string name="load_data_error_message">Something went wrong while loading the content</string>
+    <string name="cached_data_loaded">Cached data loaded.</string>
+
+    <string name="list_item_description">Description: %s</string>
+    <string name="list_item_modification_date">Modification date: %s</string>
+
+</resources>
